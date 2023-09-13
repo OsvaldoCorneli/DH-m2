@@ -1,20 +1,18 @@
-let numero1 = 16;
-let numero2 = 2
+// let numero1 = 16;
+// let numero2 = 2
 
-let resultado;
+// let resultado;
 
-resultado = numero1 + numero2;
+// resultado = numero1 + numero2;
 
-console.log('Resultado suma', resultado);
+// console.log('Resultado suma', resultado);
 
-resultado = numero1 - numero2;
+// resultado = numero1 - numero2;
 
-console.log('Resultado resta', resultado);
+// console.log('Resultado resta', resultado);
 
-resultado = numero1 * numero2;
+// resultado = numero1 * numero2;
 
-console.log('resultado multiplicacion', resultado )
+// console.log('resultado multiplicacion', resultado )
 
-console.log('resultado division', numero1/numero2);
-
-
+// console.log('resultado division', numero1/numero2);
