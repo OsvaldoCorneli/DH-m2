@@ -11,3 +11,19 @@ function masVendida(array,pelicula){
 }
 
 
+function laClaveSecreta(caracteres)
+{
+let nuevoArray = []
+for(let i=0; i<caracteres.length; i++){
+  if(caracteres[i] !== "*"){
+    nuevoArray.push(caracteres[i])
+  }
+}
+
+let descifrada = nuevoArray.reverse().join("")
+
+console.log(descifrada)
+
+}
+
+laClaveSecreta(["a", "*", "d", "a", "r", "f", "*", "i", "c", "*", "s", "e", "d", " ", "e", "*", "v", "a", "l", "C"])
